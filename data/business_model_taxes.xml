@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="retail_tax" model="account.tax">
+            <field name="name">Retail Tax</field>
+            <field name="amount">11.00</field>
+            <field name="active">True</field>
+        </record>
+        <record id="corp_tax" model="account.tax">
+            <field name="name">Corporate Tax</field>
+            <field name="amount">15.00</field>
+            <field name="active">True</field>
+        </record>
+        <record id="subs_tax" model="account.tax">
+            <field name="name">Subscription Tax</field>
+            <field name="amount">5.00</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>
